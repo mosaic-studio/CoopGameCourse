@@ -22,6 +22,10 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	void BeginJump();
+
+	void StopJump();
+
 	void BeginCrouch();
 
 	void EndCrouch();
